@@ -51,7 +51,7 @@ npm run build
 4. Configure as follows:
    - **Name**: Web Documentation MCP
    - **Type**: command
-   - **Command**: `node /full/path/to/web-docs-mcp/dist/index.js`
+   - **Command**: `node /full/path/to/recall-docs-mcp/dist/index.js`
 5. Click "Create" and ensure the server shows as "Enabled"
 
 ## Usage
