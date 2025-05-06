@@ -1,7 +1,7 @@
 {
   "name": "recall-docs-mcp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": "./dist/index.js",
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
