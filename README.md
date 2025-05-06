@@ -54,6 +54,26 @@ npm run build
    - **Command**: `node /full/path/to/recall-docs-mcp/dist/index.js`
 5. Click "Create" and ensure the server shows as "Enabled"
 
+## Usage Using NPX
+
+### Using Environment Variables in Cursor/Claude/Windsurf Configuration
+
+Configure your MCP servers JSON file for your designated consuming environment by adding this MCP using the following format:
+
+```json
+{
+  "mcpServers": {
+    "recall-docs-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:recallnet/recall-docs-mcp"
+      ]
+    }
+  }
+}
+```
+
 ## Usage
 
 Once installed, you can interact with your documentation in two ways:
